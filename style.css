@@ -93,12 +93,12 @@ body {
 }
 
 /* List Styling */
-.perks-list {
+.reasons-list {
     padding-left: 20px;
     line-height: 1.8;
 }
 
-.perks-list li {
+.reasons-list li {
     color: #444;
     font-size: 14px;
 }
