@@ -1,35 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fun GenZ Hostel</title>
+    <title>JUJA CHAP CHAP QUARTERS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         
-        <!-- header Section -->
-        <div class="header">
-            <h1>SHUJAAZ Hostel</h1>
-            <p>Your home away from home — zero stress, good vibes only!</p>
-        </div>
+    <header class="navbar">
+        <div class="nav-container">
+          <!-- Brand / Logo Section in Top Corner -->
+          <div class="brand">
+            <a href="#" class="logo">JCCQ</a>
+            <span class="tagline">Zero stress. Good vibes. Your home away from home.</span>
+          </div>
 
-        <!-- Navigation Bar -->
+          <nav class="nav-links">
+             <a href="#about">About Us</a>
+            <a href="#rooms">Room Types</a>
+            <a href="#reasons">Why Choose Us</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+
+          <a href="#rooms" class="nav-btn">Book Now</a>
+        </div>
+    </header>
+
+    <!--
+              header Section 
+         
+            <div class="header">
+             <h1>JUJA CHAP CHAP QUARTERS</h1>
+             <p>Your home away from home — zero stress, good vibes only!</p>
+            </div> 
+        
+
+         Navigation Bar 
         <div class="navbar">
             <a href="#about">About Us</a>
             <a href="#rooms">Room Types</a>
             <a href="#reasons">Why Choose Us</a>
             <a href="#contact">Book A Room</a>
         </div>
-
-        <!-- About Section -->
-        <div class="content-box" id="about">
-            <h2>Welcome Comrade! </h2>
-            <p>Tired of boring hostels with strict rules and slow Wi-Fi? <strong>SHUJAAZ Hostel</strong> is designed specifically for university students who want a clean, secure, and fun place to stay, study, and chill without breaking the bank.</p>
+    -->
+       
+    <!-- 2. HERO SECTION (Background Image + Overlay Text) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>COMRADE! COMRADE!</h1>
+            <p>Tired of boring hostels with strict rules and slow Wi-Fi? <strong>JUJA CHAP CHAP QUARTERS</strong> is designed specifically for university students who want a clean, secure, and fun place to stay, study, and chill without breaking the bank.</p>
+             <a href="#apartments" class="hero-btn">Explore Apartments</a>
         </div>
+    </section>
+        <!-- About Section -->
+        <!--
+        <div class="content-box" id="about">
+            <h2>Comrade! Comrade! </h2>
+            <p>Tired of boring hostels with strict rules and slow Wi-Fi? <strong>JUJA CHAP CHAP QUARTERS</strong> is designed specifically for university students who want a clean, secure, and fun place to stay, study, and chill without breaking the bank.</p>
+        </div>
+        -->
+        
 
         <!-- Rooms Section -->
-        <div class="content-box" id="rooms">
+
+        <!-- 3. APARTMENTS SECTION (Container Grid with Cards) -->
+  <section id="apartments" class="container">
+    <h2 class="section-title">Our Apartments</h2>
+
+    <div class="apartments-grid">
+
+      <!-- Apartment Card 1 -->
+      <div class="apartment-card">
+        <div class="card-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80" alt="Studio Room">
+          <span class="status-tag available">Available</span>
+        </div>
+        <div class="card-details">
+          <h3>Studio Apartment</h3>
+          <p class="description">Fully furnished private studio with en-suite bathroom and personal kitchen.</p>
+          <div class="card-footer">
+            <span class="price">Ksh 18,000 / mo</span>
+            <a href="room-details.html?id=studio" class="view-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Apartment Card 2 -->
+      <div class="apartment-card">
+        <div class="card-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80" alt="Alcove Room">
+          <span class="status-tag available">Available</span>
+        </div>
+        <div class="card-details">
+          <h3>Alcove Apartment</h3>
+          <p class="description">Spacious layout featuring a designated sleeping area and shared common facilities.</p>
+          <div class="card-footer">
+            <span class="price">Ksh 22,000 / mo</span>
+            <a href="room-details.html?id=alcove" class="view-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Apartment Card 3 -->
+      <div class="apartment-card">
+        <div class="card-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt="Shared Room">
+          <span class="status-tag occupied">Occupied</span>
+        </div>
+        <div class="card-details">
+          <h3>Shared Collective</h3>
+          <p class="description">Private bedroom inside a shared cluster flat with modern community spaces.</p>
+          <div class="card-footer">
+            <span class="price">Ksh 15,000 / mo</span>
+            <button class="view-btn disabled" disabled>Unavailable</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+       <!-- 
+          <div class="content-box" id="rooms">
             <h2>Available Rooms</h2>
             
             <div class="room-item">
@@ -50,33 +142,149 @@
                 <p class="price">Ksh 14,000 / month</p>
             </div>
         </div>
+        >
 
+       -->
+       
+       <!-- 4. WHY CHOOSE US SECTION (Container Grid with Image Cards) -->
+<section id="reasons" class="container">
+  <h2 class="section-title">Why Choose Us?</h2>
+
+  <div class="features-grid">
+
+    <!-- Feature Card 1 -->
+    <div class="feature-card">
+      <div class="card-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80" alt="Fast Wi-Fi">
+      </div>
+      <div class="card-details">
+        <h3>Fast Wi-Fi</h3>
+        <p class="description">High-speed internet for online classes, gaming, and streaming uninterrupted.</p>
+      </div>
+    </div>
+
+    <!-- Feature Card 2 -->
+    <div class="feature-card">
+      <div class="card-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80" alt="Safe & Secure">
+      </div>
+      <div class="card-details">
+        <h3>Safe & Secure</h3>
+        <p class="description">24/7 security guard, CCTV coverage, and biometric gate access control.</p>
+      </div>
+    </div>
+
+    <!-- Feature Card 3 -->
+    <div class="feature-card">
+      <div class="card-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80" alt="Constant Water">
+      </div>
+      <div class="card-details">
+        <h3>Constant Water</h3>
+        <p class="description">Reliable water supply backed up by high-capacity storage tanks. No drama!</p>
+      </div>
+    </div>
+
+    <!-- Feature Card 4 -->
+    <div class="feature-card">
+      <div class="card-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Chill Lounge">
+      </div>
+      <div class="card-details">
+        <h3>Chill Lounge</h3>
+        <p class="description">Common room equipped with TV, board games, and dedicated study areas.</p>
+      </div>
+    </div>
+
+    <!-- Feature Card 5 -->
+    <div class="feature-card">
+      <div class="card-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&w=800&q=80" alt="Prime Location">
+      </div>
+      <div class="card-details">
+        <h3>Prime Location</h3>
+        <p class="description">Walking distance from Junction near Kimboni Primary School.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 5. CONTACT / BOOKING SECTION (With Hero Image Card) -->
+<section id="contact" class="container contact-section">
+  <div class="contact-card">
+    <div class="contact-image-wrapper">
+      <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80" alt="Juja Chap Chap Quarters Building">
+    </div>
+
+    <div class="contact-details">
+      <div class="contact-header">
+        <h2>Book Your Spot Today</h2>
+        <p class="description">Rooms fill up fast every semester. Reach out to reserve yours early!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="info-item">
+          <span class="info-icon">📞</span>
+          <div>
+            <h4>Phone / WhatsApp</h4>
+            <p>+254 712 345 678</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">📩</span>
+          <div>
+            <h4>Email</h4>
+            <p>bookings@jujachapchapquarters.co.ke</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>Juja, Makutano Road, Near Gate 2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-action">
+        <a href="tel:+254712345678" class="btn-apply">Call To Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
         <!-- Reasons Section -->
-        <div class="content-box" id="reasons">
+
+        <!-- 
+          <div class="content-box" id="reasons">
             <h2>Why Choose Us? </h2>
             <ul class="reasons-list">
                 <li> <strong>Fast Wi-Fi:</strong> High-speed internet for online classes, gaming, and streaming.</li>
                 <li> <strong>Safe & Secure:</strong> 24/7 security guard, CCTV, and biometric gate access.</li>
                 <li> <strong>Constant Water:</strong> Reliable water supply with backup tanks. No drama!</li>
                 <li> <strong>Chill Lounge:</strong> Common room with TV, board games, and study areas.</li>
-                <li> <strong>Prime Location:</strong> Walking distance to the main campus gate and market.</li>
+                <li> <strong>Prime Location:</strong> Walking distance from Junction near Kimboni Primary School.</li>
             </ul>
         </div>
 
-        <!-- Contact Section -->
+         Contact Section 
         <div class="content-box" id="contact">
             <h2>Book Your Spot </h2>
             <p>Rooms fill up fast every semester. Reach out to reserve yours early!</p>
             
             <div class="contact-info">
                 <p> <strong>Phone / WhatsApp:</strong> +254 712345678</p>
-                <p> <strong>Email:</strong> bookings@shujaazz.co.ke</p>
-                <p> <strong>Location:</strong> Makutano Road, Near Gate 2</p>
+                <p> <strong>Email:</strong> bookings@jujachapchapquarters.co.ke</p>
+                <p> <strong>Location:</strong> Juja,Makutano Road, Near Gate 2</p>
             </div>
 
             <button class="btn-apply">Call To Book Now</button>
         </div>
 
+        -->
+       
     </div>
 
 </body>
